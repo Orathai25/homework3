@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Collapse Multiple targets</title>
+  </head>
+
+  <body style="background-color:#FEFEF1;">
+
+  <p>
+    <a style="color:deeppink;" class="btn btn-outline-info" data-bs-toggle="collapse" href="#multiCol1" role="button" aria-expanded="false" aria-controls="multiCol1">สามพันโบก</a>
+    <button style="color:black;" class="btn btn-outline-warning" type="button" data-bs-toggle="collapse" data-bs-target="#multiCol2" aria-expanded="false" aria-controls="multiCol2">วัดสิรินธรวรารามภูพร้าว</button>
+    <button style="color:darkorange;" class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCol3" aria-expanded="false" aria-controls="multiCol3">อุทยานแห่งชาติภูจองนายอย</button>
+    <button style="color:greenyellow;" class="btn btn-outline-success" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCol1 multiCol2 multiCol3">ซ่อน</button>
+  </p>
+  <div class="row">
+
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCol1">
+        <div class="card card-body">
+            <img src="imag/ubon2.jpg" alt="สามพันโบก">
+            ถือเป็นอีกหนึ่งแลนด์มาร์กที่เที่ยวอุบลฯ ที่นักท่องเที่ยวไม่ควรพลาด ตั้งอยู่บริเวณบ้านสองคอน อำเภอโพธิ์ไทร  โดยในช่วงหน้าแล้ง "สามพันโบก" จะโผล่พ้นน้ำให้เห็นคล้ายเป็นภูเขากลางลำน้ำโขง ความสวยงามวิจิตรของหินที่ถูกน้ำเซาะมองเห็นเป็นภาพศิลปะ บางแห่งใหญ่ขนาดเป็นสระว่ายน้ำ บางแอ่งขนาดเล็ก มีรูปร่างลักษณะที่แตกต่างกันออกไป (ตามแต่นักท่องเที่ยวจะจินตนาการ).<br>
+            การไปเที่ยวสามพันโบก แนะนำว่าให้ไปเที่ยวช่วงเวลาประมาณ 06.00-09.00 น. และ 15.00-17.30 น. เพราะจะเป็นช่วงที่แดดร่มลมตก อากาศกำลังสบาย ๆ.
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCol2">
+        <div class="card card-body">
+            <img src="imag/ubon9.jpg" alt="วัดสิรินธรวรารามภูพร้าว">
+            ตั้งอยู่ที่ตำบลช่องเม็ก อำเภอสิรินธร จังหวัดอุบลราชธานี และด้วยพิกัดที่ตั้งของวัดอยู่บนเนินเขาสูง นอกจากพื้นที่นี้จะเป็นที่ประดิษฐานโบสถ์อันสวยงามแล้ว ยังมีจุดชมวิวและทัศนียภาพอยู่หลายจุด หรือจะนั่งชมความสวยงามของพระอาทิตย์ตกยามเย็นก็ยังได้ แต่ไฮไลท์เด็ดที่นักท่องเที่ยวไม่ควรพลาดเลย ก็คือ การได้มาชมภาพเรืองแสงสีเขียวของต้นกัลปพฤกษ์ ซึ่งเป็นจิตรกรรมบริเวณด้านหลังของอุโบสถนั่นเอง.
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+        <div class="collapse multi-collapse" id="multiCol3">
+          <div class="card card-body">
+            <img src="imag/ubon18.jpg" alt="อุทยานแห่งชาติภูจองนายอย">
+            ตั้งอยู่ที่อำเภอนาจะหลวย โดยจุดเด่นของการเดินทางมาเที่ยวที่ภูจองนายอย คือ การได้มาชมความงามของ "น้ำตกห้วยหลวง" มีลักษณะเป็นหน้าผาหินที่มีน้ำกระโจนตกจากที่สูงลงสู่แอ่งน้ำเบื้องล่าง โดยบริเวณแอ่งน้ำด้านล่างน้ำตกสามารถลงเล่นน้ำได้ด้วย กระแสน้ำที่ไหลตกจากที่สูงทำให้เกิดเป็นหาดทรายขนาดย่อม ซึ่งแวดล้อมด้วยป่าไม้ที่ร่มรื่น นับเป็นหาดทรายกลางป่าที่สวยงามไม่เหมือนที่ใด ๆ และจะสวยงามมากที่สุดในช่วงปลายฝนต้นหนาว.
+          </div>
+        </div>
+      </div>
+
+  </div>
+</body>
